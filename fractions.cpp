@@ -107,4 +107,5 @@ Fraction& Fraction::operator/=(const Fraction& right) {
 std::ostream& operator<<(std::ostream& os, const Fraction& a) {
   os << a.numerator << "/" << a.denominator;
   return os;
+  
 }
